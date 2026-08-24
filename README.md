@@ -31,4 +31,4 @@ Para baixar e executar este projeto em sua máquina local, siga os passos abaixo
 2. Abra o seu terminal (ou Prompt de Comando / Git Bash).
 3. Execute o comando de clonagem abaixo:
 ```bash
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/ingrid-silva02/Display_TA)
+git clone (https://github.com/ingrid-silva02/Display_TA)

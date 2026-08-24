@@ -39,6 +39,12 @@ body{
     background-color: rgb(181, 216, 255);
 }
 
+.content-main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content-hero{
     /* border: 2px dashed; */
     width: 50%; 
