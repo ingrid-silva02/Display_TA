@@ -6,6 +6,118 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: deeppink;
+.Celular{
+    width: 100%;
+    display: block;
 }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+.conteudo-principal {
+    width: 100%;
+    display: flex;
+}
+
+
+/* LADO DA IMAGEM */
+
+.conteudo-principal--direito {
+    width: 40%;
+}
+
+
+/* LADO DO CONTEÚDO */
+
+.conteudo-principal--esquerdo {
+    width: 60%;
+    padding: 60px;
+}
+
+
+/* TÍTULO */
+
+.conteudo-principal--esquerdo--titulo h1 {
+    font-size: 48px;
+    font-weight: 400 bold;
+    line-height: 1.1;
+
+    /* colocar em negrito */
+}
+
+.conteudo-principal--esquerdo--titulo span {
+    display: block;
+    margin-top: 10px;
+
+    font-size: 24px;
+    color: #6ca9f9;
+}
+
+
+/* ÁREA DAS DUAS INFORMAÇÕES */
+
+.conteudo-principal--direito--descrição {
+    display: flex;
+    gap: 80px;
+
+    margin-top: 60px;
+}
+
+/* CARREGADOR */
+
+.conteudo-principal--direito--carregador {
+    width: 50%;
+}
+
+.conteudo-principal--direito--carregador h2 {
+    font-size: 36px;
+    font-weight: 400 bold;
+    margin-bottom: 15px;
+}
+
+.conteudo-principal--direito--carregador p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+/* HORAS DE BATERIA */
+
+.conteudo-principal--direito--horas-bateria {
+    width: 50%;
+}
+
+.conteudo-principal--direito--horas-bateria h2 {
+    font-size: 36px;
+    font-weight: 400 bold;
+    margin-bottom: 15px;
+}
+
+.conteudo-principal--direito--horas-bateria p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+/* CARREGAMENTO SEM FIO */
+
+.conteudo-principal--direito--sem-fio {
+    margin-top: 60px;
+}
+
+.conteudo-principal--direito--sem-fio h2 {
+    font-size: 36px;
+    font-weight: 400 bold;
+    margin-bottom: 15px;
+}
+
+.conteudo-principal--direito--sem-fio p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
