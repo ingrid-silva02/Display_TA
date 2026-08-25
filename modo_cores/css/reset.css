@@ -3,4 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
+
+/* ativar rolagem suave nativa para links âncoras */
+html{
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+} 
