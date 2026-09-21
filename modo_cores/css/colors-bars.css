@@ -1,0 +1,27 @@
+
+/* Aplicação de cores  */
+
+
+.color-section__bar--rgb-1{background-color:var(--color-rgb-1);}
+.color-section__bar--rgb-2{background-color:rgb(0, 255, 0);}
+.color-section__bar--rgb-3{background-color:rgb(0, 0, 255);}
+.color-section__bar--rgb-4{background-color:rgb(255, 255, 0);}
+.color-section__bar--rgb-5{background-color:rgb(0, 255, 255);}
+.color-section__bar--rgb-6{background-color:rgb(255, 0, 255);}
+
+.color-section__bar--cmyk-1{background-color:#e60000;}
+.color-section__bar--cmyk-2{background-color:#006b00;}
+.color-section__bar--cmyk-3{background-color:#0000ae;}
+.color-section__bar--cmyk-4{background-color:#dfdf05;}
+.color-section__bar--cmyk-5{background-color:#03e6e6;}
+.color-section__bar--cmyk-6{background-color:#d900d9;}
+
+.color-section__bar--netflix-1{background-color:#221F1F ;}
+.color-section__bar--netflix-2{background-color:#E50914;}
+.color-section__bar--netflix-3{background-color:#F5F5F1 ;}
+
+.color-section__bar--google-1{background-color:#4285F4;}
+.color-section__bar--google-2{background-color:#FBBC05;}
+.color-section__bar--google-3{background-color:#34A853;}
+.color-section__bar--google-4{background-color:#EA4335;}
+
