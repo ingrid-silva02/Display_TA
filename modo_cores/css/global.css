@@ -89,3 +89,18 @@
     box-shadow: 0 0 30px rgba(94, 40, 105);
 }
 
+.color-section__content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
+    
+}
+
+.color-section__palette{
+    display: flex;
+    height: 43vh;
+    display: flex;
+}
+
+.
