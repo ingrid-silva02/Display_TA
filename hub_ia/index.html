@@ -21,32 +21,105 @@
         }
 
 
-        body {
-            background-color: deeppink;
+
+
+        h1{
+            text-align: center;
+            margin: 20px;
+
         }
 
-        .conteiner{
-            width:100%;
-            display:flex;
+        .conteiner {
+            display: flex;
             gap: 15px;
+            justify-content: center;
             flex-wrap: wrap;
         }
 
-        .box{
-            width: 400px;
+        .box {
+            width: 100%;
+            max-width: 400px;
             height: 200px;
-            background-color:black;
+            background-color: rgb(0, 0, 0);
+        }
+        .container-position{
+            margin-top: 10px;
+            width: 100%;
+            height: 600px;
+            border: 2px solid rgb(255, 20, 147);
+            position: relative;
         }
 
-        @media(min-width: 768px) {
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(247, 74, 189);
+        }
+        .container-position__filho01{
+            top: 0;
+            left: 0;
+        }
+
+        .container-position__filho02{
+
+            top: 0;
+            right: 0;
+
+        }
+
+        .container-position__filho03{
+            bottom: 0;
+            left: 0;
+        }
+
+        .container-position__filho04{
+            bottom: 0;
+            right: 0;
+        }
+
+        .whats{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: hotpink;
+            border: 2px solid #fff;
+            box-shadow: 1px 2px 7px  2px #fff;
+            position: fixed;
+            right:60px ;
+            bottom:45px ;
+        }
+
+        .whats img{
+             width: 75px;
+            height: 75px;
+
+        }
+
+        /* Base style for mobile devices 20px */
+        body {
+            padding: 20px;
+            background-color: rgb(245, 56, 182);
+            color: white;
+            font-family: Arial,sans-serif;
+            height: 300vh;
+        }
+
+       
+
+        /* For devices with a minimum width of 768px (Medium) */ 
+        @media screen and (min-width: 871px) {
             body {
-                background-color: #f74799;
+                background-color: rgb(233, 20, 137);
+                color: black;
             }
         }
 
-        @media (max-width: 480px) {
+         /* For devices with a minimum  width of 992px (Large)*/
+        @media screen and (min-width: 1286px) {
             body {
-                background-color: #f7c7cf;
+                background-color: rgb(241, 128, 198);
+                color: white;
             }
         }
     </style>
@@ -55,12 +128,24 @@
 <body>
     <h1>Teste com CSS @Media Query</h1>
     <div class="conteiner">
-        
+
 
         <div class="box"> </div>
         <div class="box"> </div>
         <div class="box"> </div>
         <div class="box"> </div>
+    </div>
+
+    <div class="container-position">
+        <div class="container-position__filho01 filho-tamanho"></div>
+        <div class="container-position__filho02 filho-tamanho"></div>
+        <div class="container-position__filho03 filho-tamanho"></div>
+        <div class="container-position__filho04 filho-tamanho"></div>
+    </div>
+    <div class="whats">
+
+        <img src="./img/whatsapp.png" alt="Logo do whatsapp">
+
     </div>
 </body>
 

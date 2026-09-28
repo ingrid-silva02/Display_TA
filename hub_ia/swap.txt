@@ -1,0 +1,23 @@
+  /*
+            body {
+            padding: 20px;
+            background-color: deeppink;
+            color: white;
+            font-family: Arial,sans-serif;
+        
+        }
+  
+  
+            @media(min-width: 768px) {
+            body {
+                background-color: #f74799;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                background-color: #f7c7cf;
+            }
+        } */
+
+        
