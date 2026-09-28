@@ -11,28 +11,56 @@
     <!-- estilo da pagina -->
     <!-- () são os parametros 
     @media= tela a partir de 480px-->
+    <!--break point 
+    sempre coloque as medias do menor para o maior  -->
     <style>
+        * {
+            margin-top: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
         body {
             background-color: deeppink;
         }
-        
-        @media(min-width: 768px){
-            body{
+
+        .conteiner{
+            width:100%;
+            display:flex;
+            gap: 15px;
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color:black;
+        }
+
+        @media(min-width: 768px) {
+            body {
                 background-color: #f74799;
             }
         }
 
-        @media (min-width: 480px){
+        @media (max-width: 480px) {
             body {
                 background-color: #f7c7cf;
             }
         }
-
     </style>
 </head>
 
 <body>
+    <h1>Teste com CSS @Media Query</h1>
+    <div class="conteiner">
+        
 
+        <div class="box"> </div>
+        <div class="box"> </div>
+        <div class="box"> </div>
+        <div class="box"> </div>
+    </div>
 </body>
 
 </html>
