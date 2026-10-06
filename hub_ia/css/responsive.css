@@ -1,58 +1,181 @@
+/* SMARTPHONES PEQUENOS Até 500px*/
 
- 
- /* smartphones pequenos ate 500px */
- @media (max-width: 500px){
+@media (max-width: 500px) {
 
-    body{
+    body {
         padding-top: 170px;
         padding-bottom: 60px;
     }
-    
-    }
 
-    .header{
+    .header {
         height: auto;
+        min-height: 150px;
         padding: 10px 8px;
         flex-direction: column;
         gap: 8px;
     }
 
-    .header_title{
-        font-size: 2.4rem; /*24px*/
-
+    .header__title {
+        font-size: 2.4rem;
     }
 
-    .nav_list{
+    .nav {
+        width: 100%;
+    }
+
+    .nav__list {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 4px;
         padding: 4px;
+        box-sizing: border-box;
     }
 
-
-    .nav_item{
+    .nav__item {
         flex: 1 1 calc(33.333% - 6px);
         text-align: center;
     }
 
-    .nav_link{
+    .nav__link {
         width: 100%;
-        font-size: 1.1rem; /*11px*/
+        font-size: 1.1rem;
         padding: 6px 4px;
         display: block;
-        white-space: nowwrap;
+        white-space: nowrap;
+        box-sizing: border-box;
     }
 
- @media (min-width: 501px) and (max-width: 767px){
+    .section-ia,
+    .faq {
+        height: auto;
+        min-height: auto;
+        padding: 30px 16px;
+        scroll-margin-top: 170px;
+    }
 
- }
+    .section-ia__title {
+        font-size: 2.1rem;
+    }
 
-@media (min-width: 768px) and (max-width: 1023px){
+    .section-ia__text {
+        font-size: 1.4rem;
+    }
 
+    .section-ia__container,
+    .section-ia--reverse .section-ia__container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .section-ia__content,
+    .section-ia__aside {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 8px 12px;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .footer__section {
+        flex-direction: column;
+        gap: 4px;
+    }
 }
 
-@media (min-width: 1024px){
+
+/* TABLETS PEQUENOS 501px até 767px */
+
+@media (min-width: 501px) and (max-width: 767px) {
+
+    body {
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+
+    .header {
+        height: auto;
+        padding: 12px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        padding: 6px;
+    }
+
+    .nav__link {
+        font-size: 1.3rem;
+        padding: 6px 12px;
+    }
+
+    .section-ia,
+    .faq {
+        height: auto;
+        min-height: auto;
+        padding: 40px 5%;
+        scroll-margin-top: 130px;
+    }
+
+    .section-ia__container,
+    .section-ia--reverse .section-ia__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-ia__content,
+    .section-ia__aside {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 10px 5%;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .footer__section {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+/*TABLETS 768px até 1023px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .section-ia__container {
+        gap: 24px;
+    }
+
+    .nav__link {
+        padding: 8px 12px;
+        font-size: var(--font-size-sm);
+    }
+
+    .section-ia__title {
+        font-size: 2.4rem;
+    }
+}
+
+
+/*DESKTOP A partir de 1024px*/
+
+@media (min-width: 1024px) {
+
+    .section-ia__container {
+        max-width: 1100px;
+    }
 
 }
